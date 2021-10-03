@@ -15,7 +15,7 @@ const Wrapper = () => {
                               <h1>{count}</h1>
                               <br/>
                               <button type="button" class="btn btn-primary" onClick={onClickhandle}>Click</button>
-                              {/* {count<5&&<Example count = {count}/>} */}
+                              {<Example count = {count}/>}
                               {/* {count < 5 && <Example count={-1} />} */}
                     </div>
           )
