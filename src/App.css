@@ -3,3 +3,7 @@
 margin-top: 40px ;
 margin-left:300px;
 }
+input {
+          margin-top: 40px;
+          display:table-row
+}
