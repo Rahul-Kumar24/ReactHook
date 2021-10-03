@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react'
-
 const Example = ({count}) => {
           // const item=props.item.name;
           // const count = props.item.count;

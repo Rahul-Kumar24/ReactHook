@@ -10,6 +10,11 @@ const Wrapper = () => {
           //           console.log("hello");
           // },[])
           const name = "Rahul"
+
+          const [ title , setTitle ] = useState("Example");
+          useEffect(()=>{
+                    document.title = title;
+          },[title])
           return (
                     <div className="wrapper">
                               <h1>{count}</h1>
